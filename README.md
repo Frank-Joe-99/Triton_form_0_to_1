@@ -7,8 +7,8 @@
 
 - [x] 安装与 Triton 编程模型简介
 - [x] Vector Addition
-- [x] Fused Softmax（学习中）
-- [ ] Matrix Multiplication
+- [x] Fused Softmax
+- [ ] Matrix Multiplication（施工中）
 - [ ] Low-Memory Dropout
 - [ ] Layer Normalization
 - [ ] Fused Attention
