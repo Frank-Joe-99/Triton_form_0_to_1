@@ -7,7 +7,7 @@
 
 - [x] 安装与 Triton 编程模型简介
 - [x] Vector Addition
-- [ ] Fused Softmax（学习中）
+- [x] Fused Softmax（学习中）
 - [ ] Matrix Multiplication
 - [ ] Low-Memory Dropout
 - [ ] Layer Normalization
@@ -54,3 +54,4 @@ block-scaled 指令不受支持时，可先完成代码阅读，不必把硬件�
 - PyTorch
 - Triton
 - CUDA 或 ROCm 支持的 GPU
+- triton-CPU 版本只能进行测试
