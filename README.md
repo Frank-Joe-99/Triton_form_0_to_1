@@ -8,9 +8,9 @@
 - [x] 安装与 Triton 编程模型简介
 - [x] Vector Addition
 - [x] Fused Softmax
-- [ ] Matrix Multiplication（施工中）
-- [ ] Low-Memory Dropout
-- [ ] Layer Normalization
+- [x] Matrix Multiplication
+- [x] Low-Memory Dropout
+- [ ] Layer / RMS Normalization（施工中）
 - [ ] Fused Attention
 - [ ] Libdevice External Functions
 - [ ] Group GEMM
@@ -29,7 +29,7 @@
 | `02-fused-softmax/` | Fused Softmax | kernel fusion 与 reduction |
 | `03-matrix-multiplication/` | Matrix Multiplication | tiled GEMM、L2 grouping、autotune |
 | `04-low-memory-dropout/` | Low-Memory Dropout | 并行伪随机数与 seed 重建 mask |
-| `05-layer-norm/` | Layer Normalization | forward/backward 与并行归约 |
+| `05-layer-norm-and-rms-norm/` | Layer / RMS Normalization | forward/backward 与并行归约 |
 | `06-fused-attention/` | Fused Attention | FlashAttention v2 与 online softmax |
 | `07-extern-functions/` | Libdevice | 外部设备数学函数 |
 | `08-grouped-gemm/` | Group GEMM | 多 GEMM 的 device-side 调度 |
