@@ -10,8 +10,8 @@
 - [x] Fused Softmax
 - [x] Matrix Multiplication
 - [x] Low-Memory Dropout
-- [ ] Layer / RMS Normalization（施工中）
-- [ ] Fused Attention
+- [x] Layer Normalization
+- [ ] Fused Attention （施工中）
 - [ ] Libdevice External Functions
 - [ ] Group GEMM
 - [ ] Persistent Matmul
