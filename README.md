@@ -29,7 +29,7 @@
 | `02-fused-softmax/` | Fused Softmax | kernel fusion 与 reduction |
 | `03-matrix-multiplication/` | Matrix Multiplication | tiled GEMM、L2 grouping、autotune |
 | `04-low-memory-dropout/` | Low-Memory Dropout | 并行伪随机数与 seed 重建 mask |
-| `05-layer-norm/` | Layer Normalization | forward/backward 与并行归约 |
+| `05-layer-norm-and-rms-norm/` | Layer / RMS Normalization | forward/backward 与并行归约 |
 | `06-fused-attention/` | Fused Attention | FlashAttention v2 与 online softmax |
 | `07-extern-functions/` | Libdevice | 外部设备数学函数 |
 | `08-grouped-gemm/` | Group GEMM | 多 GEMM 的 device-side 调度 |
@@ -54,3 +54,4 @@ block-scaled 指令不受支持时，可先完成代码阅读，不必把硬件�
 - PyTorch
 - Triton
 - CUDA 或 ROCm 支持的 GPU
+- triton-CPU 版本只能进行测试
